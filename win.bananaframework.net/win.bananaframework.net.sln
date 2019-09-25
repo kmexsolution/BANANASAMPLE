@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Resources", "External Resources", "{4E8C6EA9-4C96-482A-9A23-BBCA419AB9CB}"
+	ProjectSection(SolutionItems) = preProject
+		AssemblySharedInfo.cs = AssemblySharedInfo.cs
+		AssemblySharedVersion.cs = AssemblySharedVersion.cs
+		BuildVersionIncrement.exe = BuildVersionIncrement.exe
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClient", "DemoClient\DemoClient.csproj", "{13EF1287-EACA-4674-AE29-2FE032205DAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClient.Controls", "DemoClient.Controls\DemoClient.Controls.csproj", "{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClient.Resource", "DemoClient.Resource\DemoClient.Resource.csproj", "{10A9D392-CE70-4102-9906-491FF9F0EF79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{13EF1287-EACA-4674-AE29-2FE032205DAA}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF9FBEB-DD10-4C0F-8EA9-2986B7DC8320}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{10A9D392-CE70-4102-9906-491FF9F0EF79}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63A8BC03-C86A-4FF6-ACF4-E8D862ECA5F7}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://211.232.104.181:8080/tfs/powercash
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PowerCash\\PowerCash.csproj
+		SccProjectName1 = PowerCash
+		SccLocalPath1 = PowerCash
+		SccProjectUniqueName2 = PowerCashClient\\PowerCashClient.csproj
+		SccProjectName2 = PowerCashClient
+		SccLocalPath2 = PowerCashClient
+		SccProjectUniqueName3 = PowerCashScheduler\\PowerCashScheduler.csproj
+		SccProjectName3 = PowerCashScheduler
+		SccLocalPath3 = PowerCashScheduler
+		SccProjectUniqueName4 = Web.MyOffice\\Web.MyOffice.csproj
+		SccProjectName4 = Web.MyOffice
+		SccLocalPath4 = Web.MyOffice
+		SccProjectUniqueName5 = Web.MyOffice.Store\\Web.MyOffice.Store.csproj
+		SccProjectName5 = Web.MyOffice.Store
+		SccLocalPath5 = Web.MyOffice.Store
+		SccProjectUniqueName6 = Web.MyOffice.Agent\\Web.MyOffice.Agent.csproj
+		SccProjectName6 = Web.MyOffice.Agent
+		SccLocalPath6 = Web.MyOffice.Agent
+		SccProjectUniqueName7 = PowerCashCommon\\PowerCashCommon.csproj
+		SccProjectName7 = PowerCashCommon
+		SccLocalPath7 = PowerCashCommon
+	EndGlobalSection
+EndGlobal

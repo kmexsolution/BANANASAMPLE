@@ -1,0 +1,266 @@
+[2019-06-18 07:50:48.5048.364265] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-18 07:50:48.5048.403197] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-06-18 07:50:52.5052.724611] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-18 07:50:52.5052.741566] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-06-18 07:52:18.5218.388906] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-18 07:52:18.5218.398880] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-06-18 07:52:21.5221.567412] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-18 07:52:21.5221.572398] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: D:\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-06-18 07:53:59.5359.065051] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 08:11:48.1148.491169] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 08:49:26.4926.334155] Exception Found==============================
+Type: System.ArgumentException
+Message:  InvalidArgument=Value of '-1' is not valid for 'ColumnPosition'.
+Source: System.Windows.Forms
+HelpLink: 
+Stacktrace: 
+   at System.Windows.Forms.Layout.TableLayout.GetControlFromPosition(IArrangedElement container, Int32 column, Int32 row)
+   at System.Windows.Forms.TableLayoutPanel.GetControlFromPosition(Int32 column, Int32 row)
+   at DemoClient.Controls.TableLayoutPanel.RemoveControl(Control Control, Boolean IsContainer) in D:\win.bananaframework.net\DemoClient\Controls\TableLayoutPanel.cs:line 250
+   at DemoClient.Controls.TableLayoutPanel.OnSizeChanged(EventArgs e) in D:\win.bananaframework.net\DemoClient\Controls\TableLayoutPanel.cs:line 133
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-06-18 08:53:06.536.456104] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 09:03:39.339.621204] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 09:12:21.1221.476406] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 09:15:17.1517.531369] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 09:28:34.2834.452349] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 09:32:45.3245.590696] Exception Found==============================
+Type: System.ArgumentException
+Message:  InvalidArgument=Value of '-1' is not valid for 'ColumnPosition'.
+Source: System.Windows.Forms
+HelpLink: 
+Stacktrace: 
+   at System.Windows.Forms.Layout.TableLayout.GetControlFromPosition(IArrangedElement container, Int32 column, Int32 row)
+   at System.Windows.Forms.TableLayoutPanel.GetControlFromPosition(Int32 column, Int32 row)
+   at DemoClient.Controls.TableLayoutPanel.RemoveControl(Control Control, Boolean IsContainer) in D:\win.bananaframework.net\DemoClient\Controls\TableLayoutPanel.cs:line 250
+   at DemoClient.Controls.TableLayoutPanel.RemoveControl(Control Control, Boolean IsContainer) in D:\win.bananaframework.net\DemoClient\Controls\TableLayoutPanel.cs:line 250
+   at DemoClient.Controls.TableLayoutPanel.OnSizeChanged(EventArgs e) in D:\win.bananaframework.net\DemoClient\Controls\TableLayoutPanel.cs:line 133
+   at System.Windows.Forms.Control.UpdateBounds(Int32 x, Int32 y, Int32 width, Int32 height, Int32 clientWidth, Int32 clientHeight)
+   at System.Windows.Forms.Control.UpdateBounds()
+   at System.Windows.Forms.Control.WmWindowPosChanged(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-06-18 14:49:26.4926.091736] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 14:51:03.513.897060] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 14:53:15.5315.729366] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 14:55:57.5557.174848] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 15:00:21.021.729577] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-06-18 15:13:14.1314.652463] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 

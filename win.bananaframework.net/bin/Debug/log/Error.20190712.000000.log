@@ -1,0 +1,194 @@
+[2019-07-12 08:36:40.3640.156710] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 08:37:32.3732.436791] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 08:40:47.4047.798321] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 09:08:51.851.857938] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 09:34:50.3450.357288] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 09:53:55.5355.138200] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 10:19:37.1937.376216] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 14:40:04.404.238534] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 14:51:36.5136.068393] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:00:52.052.922154] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:08:12.812.360828] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:17:58.1758.745727] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:29:00.290.002038] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:33:59.3359.706858] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:38:13.3813.769940] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:51:21.5121.735602] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:52:01.521.208083] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-12 15:56:17.5617.704801] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 

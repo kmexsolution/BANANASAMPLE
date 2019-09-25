@@ -1,0 +1,155 @@
+[2019-09-18 20:52:06.526.677255] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 20:52:06.526.683238] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 20:52:09.529.154345] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 20:52:09.529.158335] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 21:05:02.52.112857] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:05:02.52.119839] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 21:05:03.53.316173] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:05:03.53.320161] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 21:05:22.522.582503] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:05:22.522.593473] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 21:05:26.526.092915] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: 
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:05:26.526.096904] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 해당 라이선스는 이 컴퓨터에 허용된 것이 아닙니다.
+Source: BANANA.Windows.v4.5
+HelpLink: This computer's CID: 9829A6654635; License's CID: 9828A60031DC;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-09-18 21:07:07.77.763672] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:07:39.739.319303] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-09-18 21:08:04.84.463540] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 

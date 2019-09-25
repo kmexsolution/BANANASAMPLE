@@ -1,0 +1,1422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13EF1287-EACA-4674-AE29-2FE032205DAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoClient</RootNamespace>
+    <AssemblyName>DemoClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>게시\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1404451698_274904.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AppManager, Version=1.0.557.16246, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoClient.Resource\Library\AppManager.dll</HintPath>
+    </Reference>
+    <Reference Include="BANANA.Common.v4.5, Version=4.3.1628.16246, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoClient.Resource\Library\BANANA.Common.v4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="BANANA.International.v4.5, Version=4.3.1628.16246, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoClient.Resource\Library\BANANA.International.v4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="BANANA.Windows.Controls.v4.5, Version=4.3.1628.16246, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoClient.Resource\Library\BANANA.Windows.Controls.v4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="BANANA.Windows.v4.5, Version=4.3.1628.16246, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DemoClient.Resource\Library\BANANA.Windows.v4.5.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.TreeMap.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Xpo.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraEditors.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v18.1.Core, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeMap.v18.1, Version=18.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.mshtml, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblySharedInfo.cs">
+      <Link>Properties\AssemblySharedInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\AssemblySharedVersion.cs">
+      <Link>Properties\AssemblySharedVersion.cs</Link>
+    </Compile>
+    <Compile Include="Controllers\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\BasePopupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\Kmex-GroupBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Kmex-GroupBox.Designer.cs">
+      <DependentUpon>Kmex-GroupBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngEQUMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngEQUMST.Designer.cs">
+      <DependentUpon>mngEQUMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngLINMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngLINMST.Designer.cs">
+      <DependentUpon>mngLINMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngLINPRC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngLINPRC.Designer.cs">
+      <DependentUpon>mngLINPRC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngLOCMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngLOCMST.designer.cs">
+      <DependentUpon>mngLOCMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngMOLMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngMOLMST.Designer.cs">
+      <DependentUpon>mngMOLMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngPRCMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngPRCMST.Designer.cs">
+      <DependentUpon>mngPRCMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngPRCPNO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngPRCPNO.Designer.cs">
+      <DependentUpon>mngPRCPNO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\mngWHSMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\mngWHSMST.designer.cs">
+      <DependentUpon>mngWHSMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\PNOMST.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\PNOMST.designer.cs">
+      <DependentUpon>PNOMST.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\DevGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\Common\DevGrid.Designer.cs">
+      <DependentUpon>DevGrid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\ZipCode.cs" />
+    <Compile Include="Controls\TableLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0829.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0829.Designer.cs">
+      <DependentUpon>BAS0829.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0831.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0831.Designer.cs">
+      <DependentUpon>BAS0831.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0741.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0741.Designer.cs">
+      <DependentUpon>BAS0741.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0830.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0830.Designer.cs">
+      <DependentUpon>BAS0830.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\frmPopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\frmPopUp.designer.cs">
+      <DependentUpon>frmPopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\mngPOPSQL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\mngPOPSQL.designer.cs">
+      <DependentUpon>mngPOPSQL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\mngPOPTTL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\mngPOPTTL.designer.cs">
+      <DependentUpon>mngPOPTTL.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\STR_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\STR_Form.Designer.cs">
+      <DependentUpon>STR_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\Extensions.cs" />
+    <Compile Include="Controllers\IBaseForm.cs" />
+    <Compile Include="View\ACC\ACC0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ACC\ACC0100.Designer.cs">
+      <DependentUpon>ACC0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ACC\ACC0110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ACC\ACC0110.Designer.cs">
+      <DependentUpon>ACC0110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ACC\ACC0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ACC\ACC0200.Designer.cs">
+      <DependentUpon>ACC0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ACC\ACC0310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ACC\ACC0310.Designer.cs">
+      <DependentUpon>ACC0310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\ACC\ACC0410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\ACC\ACC0410.Designer.cs">
+      <DependentUpon>ACC0410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0510.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0510.Designer.cs">
+      <DependentUpon>BAS0510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0520.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0520.Designer.cs">
+      <DependentUpon>BAS0520.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0610.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0610.Designer.cs">
+      <DependentUpon>BAS0610.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0702.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0702.Designer.cs">
+      <DependentUpon>BAS0702.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0703.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0703.Designer.cs">
+      <DependentUpon>BAS0703.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0710.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0710.Designer.cs">
+      <DependentUpon>BAS0710.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0740.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0740.Designer.cs">
+      <DependentUpon>BAS0740.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0750.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0750.Designer.cs">
+      <DependentUpon>BAS0750.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0755.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0755.Designer.cs">
+      <DependentUpon>BAS0755.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0760.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0760.Designer.cs">
+      <DependentUpon>BAS0760.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0770.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0770.Designer.cs">
+      <DependentUpon>BAS0770.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0780.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0780.Designer.cs">
+      <DependentUpon>BAS0780.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0801.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0801.Designer.cs">
+      <DependentUpon>BAS0801.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0802.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0802.Designer.cs">
+      <DependentUpon>BAS0802.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0803.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0803.Designer.cs">
+      <DependentUpon>BAS0803.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0805.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0805.Designer.cs">
+      <DependentUpon>BAS0805.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0806.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0806.Designer.cs">
+      <DependentUpon>BAS0806.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0807.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0807.Designer.cs">
+      <DependentUpon>BAS0807.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0808.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0808.Designer.cs">
+      <DependentUpon>BAS0808.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0809.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0809.Designer.cs">
+      <DependentUpon>BAS0809.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0810.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0810.Designer.cs">
+      <DependentUpon>BAS0810.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0811.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0811.Designer.cs">
+      <DependentUpon>BAS0811.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0812.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0812.Designer.cs">
+      <DependentUpon>BAS0812.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0813.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0813.Designer.cs">
+      <DependentUpon>BAS0813.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0814.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0814.Designer.cs">
+      <DependentUpon>BAS0814.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0815.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0815.Designer.cs">
+      <DependentUpon>BAS0815.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0816.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0816.Designer.cs">
+      <DependentUpon>BAS0816.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0817.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0817.Designer.cs">
+      <DependentUpon>BAS0817.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0818.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0818.Designer.cs">
+      <DependentUpon>BAS0818.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0819.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0819.Designer.cs">
+      <DependentUpon>BAS0819.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0820.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0820.Designer.cs">
+      <DependentUpon>BAS0820.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0821.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0821.Designer.cs">
+      <DependentUpon>BAS0821.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0822.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0822.Designer.cs">
+      <DependentUpon>BAS0822.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0823.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0823.Designer.cs">
+      <DependentUpon>BAS0823.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0824.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0824.Designer.cs">
+      <DependentUpon>BAS0824.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0825.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0825.Designer.cs">
+      <DependentUpon>BAS0825.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0826.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0826.Designer.cs">
+      <DependentUpon>BAS0826.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0827.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0827.Designer.cs">
+      <DependentUpon>BAS0827.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0828.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0828.Designer.cs">
+      <DependentUpon>BAS0828.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0900.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0900.Designer.cs">
+      <DependentUpon>BAS0900.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0210.Designer.cs">
+      <DependentUpon>BAS0210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0500.Designer.cs">
+      <DependentUpon>BAS0500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0600.Designer.cs">
+      <DependentUpon>BAS0600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0700.Designer.cs">
+      <DependentUpon>BAS0700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0800.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0800.Designer.cs">
+      <DependentUpon>BAS0800.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0910.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0910.Designer.cs">
+      <DependentUpon>BAS0910.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS1000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS1000.Designer.cs">
+      <DependentUpon>BAS1000.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\frmChangeMyPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\frmChangeMyPassword.Designer.cs">
+      <DependentUpon>frmChangeMyPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="View\BAS\BAS0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0100.Designer.cs">
+      <DependentUpon>BAS0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0110.Designer.cs">
+      <DependentUpon>BAS0110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0200.Designer.cs">
+      <DependentUpon>BAS0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\BAS\BAS0400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\BAS\BAS0400.Designer.cs">
+      <DependentUpon>BAS0400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Common\frmFindZipCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Common\frmFindZipCode.Designer.cs">
+      <DependentUpon>frmFindZipCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\HLP0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\HLP0100.Designer.cs">
+      <DependentUpon>HLP0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\HLP0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\HLP0200.Designer.cs">
+      <DependentUpon>HLP0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\HLP0300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\HLP0300.Designer.cs">
+      <DependentUpon>HLP0300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\HLP0310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\HLP0310.Designer.cs">
+      <DependentUpon>HLP0310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\testp1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\testp1.Designer.cs">
+      <DependentUpon>testp1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\HLP\testpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\HLP\testpage.Designer.cs">
+      <DependentUpon>testpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\CHK100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\CHK100.Designer.cs">
+      <DependentUpon>CHK100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0131.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0131.Designer.cs">
+      <DependentUpon>LRN0131.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0130.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0130.Designer.cs">
+      <DependentUpon>LRN0130.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0122.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0122.Designer.cs">
+      <DependentUpon>LRN0122.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0120.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0120.Designer.cs">
+      <DependentUpon>LRN0120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0121.Designer.cs">
+      <DependentUpon>LRN0121.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0100.Designer.cs">
+      <DependentUpon>LRN0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0110.Designer.cs">
+      <DependentUpon>LRN0110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\LRN\LRN0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\LRN\LRN0200.Designer.cs">
+      <DependentUpon>LRN0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0111.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0111.Designer.cs">
+      <DependentUpon>RDM0111.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0120.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0120.Designer.cs">
+      <DependentUpon>RDM0120.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0121.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0121.Designer.cs">
+      <DependentUpon>RDM0121.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0210.Designer.cs">
+      <DependentUpon>RDM0210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0110.Designer.cs">
+      <DependentUpon>RDM0110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0310.Designer.cs">
+      <DependentUpon>RDM0310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\RDM\RDM0410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\RDM\RDM0410.Designer.cs">
+      <DependentUpon>RDM0410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\TLS\TLS0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\TLS\TLS0100.Designer.cs">
+      <DependentUpon>TLS0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0100.Designer.cs">
+      <DependentUpon>WDR0100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0110.Designer.cs">
+      <DependentUpon>WDR0110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0200.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0200.Designer.cs">
+      <DependentUpon>WDR0200.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0210.Designer.cs">
+      <DependentUpon>WDR0210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0300.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0300.Designer.cs">
+      <DependentUpon>WDR0300.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0310.Designer.cs">
+      <DependentUpon>WDR0310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0400.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0400.Designer.cs">
+      <DependentUpon>WDR0400.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0410.Designer.cs">
+      <DependentUpon>WDR0410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0480.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0480.Designer.cs">
+      <DependentUpon>WDR0480.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0500.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0500.Designer.cs">
+      <DependentUpon>WDR0500.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0510.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0510.Designer.cs">
+      <DependentUpon>WDR0510.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0600.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0600.Designer.cs">
+      <DependentUpon>WDR0600.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0700.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0700.Designer.cs">
+      <DependentUpon>WDR0700.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0450.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0450.Designer.cs">
+      <DependentUpon>WDR0450.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0810.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0810.Designer.cs">
+      <DependentUpon>WDR0810.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR0910.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR0910.Designer.cs">
+      <DependentUpon>WDR0910.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR1010.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR1010.Designer.cs">
+      <DependentUpon>WDR1010.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR1110.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR1110.Designer.cs">
+      <DependentUpon>WDR1110.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR1210.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR1210.Designer.cs">
+      <DependentUpon>WDR1210.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR1310.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR1310.Designer.cs">
+      <DependentUpon>WDR1310.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\WDR\WDR1410.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\WDR\WDR1410.Designer.cs">
+      <DependentUpon>WDR1410.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Test\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Test\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Test\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_Test\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_Test\gridproperty.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Controls\Kmex-GroupBox.resx">
+      <DependentUpon>Kmex-GroupBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="View\BAS\mngEQUMST.resx">
+      <DependentUpon>mngEQUMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngLINMST.resx">
+      <DependentUpon>mngLINMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngLINPRC.resx">
+      <DependentUpon>mngLINPRC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngLOCMST.resx">
+      <DependentUpon>mngLOCMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngMOLMST.resx">
+      <DependentUpon>mngMOLMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngPRCMST.resx">
+      <DependentUpon>mngPRCMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngPRCPNO.resx">
+      <DependentUpon>mngPRCPNO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\mngWHSMST.resx">
+      <DependentUpon>mngWHSMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\PNOMST.resx">
+      <DependentUpon>PNOMST.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\DevGrid.resx">
+      <DependentUpon>DevGrid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0741.resx">
+      <DependentUpon>BAS0741.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0829.resx">
+      <DependentUpon>BAS0829.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0830.resx">
+      <DependentUpon>BAS0830.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0831.resx">
+      <DependentUpon>BAS0831.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\frmPopUp.resx">
+      <DependentUpon>frmPopUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\mngPOPSQL.resx">
+      <DependentUpon>mngPOPSQL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\mngPOPTTL.resx">
+      <DependentUpon>mngPOPTTL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\STR_Form.resx">
+      <DependentUpon>STR_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ACC\ACC0100.resx">
+      <DependentUpon>ACC0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ACC\ACC0110.resx">
+      <DependentUpon>ACC0110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ACC\ACC0200.resx">
+      <DependentUpon>ACC0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ACC\ACC0310.resx">
+      <DependentUpon>ACC0310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\ACC\ACC0410.resx">
+      <DependentUpon>ACC0410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0510.resx">
+      <DependentUpon>BAS0510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0520.resx">
+      <DependentUpon>BAS0520.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0610.resx">
+      <DependentUpon>BAS0610.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0702.resx">
+      <DependentUpon>BAS0702.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0703.resx">
+      <DependentUpon>BAS0703.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0710.resx">
+      <DependentUpon>BAS0710.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0740.resx">
+      <DependentUpon>BAS0740.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0750.resx">
+      <DependentUpon>BAS0750.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0755.resx">
+      <DependentUpon>BAS0755.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0760.resx">
+      <DependentUpon>BAS0760.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0770.resx">
+      <DependentUpon>BAS0770.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0780.resx">
+      <DependentUpon>BAS0780.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0801.resx">
+      <DependentUpon>BAS0801.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0802.resx">
+      <DependentUpon>BAS0802.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0803.resx">
+      <DependentUpon>BAS0803.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0805.resx">
+      <DependentUpon>BAS0805.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0806.resx">
+      <DependentUpon>BAS0806.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0807.resx">
+      <DependentUpon>BAS0807.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0808.resx">
+      <DependentUpon>BAS0808.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0809.resx">
+      <DependentUpon>BAS0809.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0810.resx">
+      <DependentUpon>BAS0810.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0811.resx">
+      <DependentUpon>BAS0811.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0812.resx">
+      <DependentUpon>BAS0812.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0813.resx">
+      <DependentUpon>BAS0813.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0814.resx">
+      <DependentUpon>BAS0814.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0815.resx">
+      <DependentUpon>BAS0815.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0816.resx">
+      <DependentUpon>BAS0816.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0817.resx">
+      <DependentUpon>BAS0817.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0818.resx">
+      <DependentUpon>BAS0818.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0819.resx">
+      <DependentUpon>BAS0819.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0820.resx">
+      <DependentUpon>BAS0820.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0821.resx">
+      <DependentUpon>BAS0821.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0822.resx">
+      <DependentUpon>BAS0822.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0823.resx">
+      <DependentUpon>BAS0823.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0824.resx">
+      <DependentUpon>BAS0824.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0825.resx">
+      <DependentUpon>BAS0825.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0826.resx">
+      <DependentUpon>BAS0826.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0827.resx">
+      <DependentUpon>BAS0827.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0828.resx">
+      <DependentUpon>BAS0828.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0900.resx">
+      <DependentUpon>BAS0900.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0110.resx">
+      <DependentUpon>BAS0110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0210.resx">
+      <DependentUpon>BAS0210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0500.resx">
+      <DependentUpon>BAS0500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0600.resx">
+      <DependentUpon>BAS0600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0700.resx">
+      <DependentUpon>BAS0700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0800.resx">
+      <DependentUpon>BAS0800.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0910.resx">
+      <DependentUpon>BAS0910.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS1000.resx">
+      <DependentUpon>BAS1000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\frmChangeMyPassword.resx">
+      <DependentUpon>frmChangeMyPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="View\BAS\BAS0100.resx">
+      <DependentUpon>BAS0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0200.resx">
+      <DependentUpon>BAS0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\BAS\BAS0400.resx">
+      <DependentUpon>BAS0400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Common\frmFindZipCode.resx">
+      <DependentUpon>frmFindZipCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HLP\HLP0100.resx">
+      <DependentUpon>HLP0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HLP\HLP0200.resx">
+      <DependentUpon>HLP0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HLP\HLP0300.resx">
+      <DependentUpon>HLP0300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HLP\HLP0310.resx">
+      <DependentUpon>HLP0310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\HLP\testpage.resx">
+      <DependentUpon>testpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\CHK100.resx">
+      <DependentUpon>CHK100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0131.resx">
+      <DependentUpon>LRN0131.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0130.resx">
+      <DependentUpon>LRN0130.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0122.resx">
+      <DependentUpon>LRN0122.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0120.resx">
+      <DependentUpon>LRN0120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0121.resx">
+      <DependentUpon>LRN0121.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0100.resx">
+      <DependentUpon>LRN0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0110.resx">
+      <DependentUpon>LRN0110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\LRN\LRN0200.resx">
+      <DependentUpon>LRN0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RDM\RDM0120.resx">
+      <DependentUpon>RDM0120.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RDM\RDM0210.resx">
+      <DependentUpon>RDM0210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RDM\RDM0110.resx">
+      <DependentUpon>RDM0110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RDM\RDM0310.resx">
+      <DependentUpon>RDM0310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\RDM\RDM0410.resx">
+      <DependentUpon>RDM0410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\TLS\TLS0100.resx">
+      <DependentUpon>TLS0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0100.resx">
+      <DependentUpon>WDR0100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0110.resx">
+      <DependentUpon>WDR0110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0200.resx">
+      <DependentUpon>WDR0200.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0210.resx">
+      <DependentUpon>WDR0210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0300.resx">
+      <DependentUpon>WDR0300.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0310.resx">
+      <DependentUpon>WDR0310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0400.resx">
+      <DependentUpon>WDR0400.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0410.resx">
+      <DependentUpon>WDR0410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0480.resx">
+      <DependentUpon>WDR0480.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0500.resx">
+      <DependentUpon>WDR0500.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0510.resx">
+      <DependentUpon>WDR0510.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0600.resx">
+      <DependentUpon>WDR0600.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0700.resx">
+      <DependentUpon>WDR0700.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0450.resx">
+      <DependentUpon>WDR0450.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0810.resx">
+      <DependentUpon>WDR0810.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR0910.resx">
+      <DependentUpon>WDR0910.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR1010.resx">
+      <DependentUpon>WDR1010.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR1110.resx">
+      <DependentUpon>WDR1110.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR1210.resx">
+      <DependentUpon>WDR1210.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR1310.resx">
+      <DependentUpon>WDR1310.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\WDR\WDR1410.resx">
+      <DependentUpon>WDR1410.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Test\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_Test\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5%28x86 및 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1404451698_274904.ico" />
+    <None Include="est_icon128.ico" />
+    <Content Include="Resources\ajax-loader.gif" />
+    <Content Include="Resources\DocIcons\Acrobat_1.ico" />
+    <Content Include="Resources\DocIcons\blank.png" />
+    <Content Include="Resources\DocIcons\BMP.ico" />
+    <Content Include="Resources\DocIcons\EXCEL_257.ico" />
+    <Content Include="Resources\DocIcons\GIF.ico" />
+    <Content Include="Resources\DocIcons\Hwp_1228.ico" />
+    <Content Include="Resources\DocIcons\JPG.ico" />
+    <Content Include="Resources\DocIcons\PNG.ico" />
+    <Content Include="Resources\DocIcons\POWERPNT_1300.ico" />
+    <Content Include="Resources\DocIcons\WINWORD_1.ico" />
+    <Content Include="Resources\Icon\1377801048_62661.ico" />
+    <Content Include="Resources\Icon\1377801059_62678.ico" />
+    <Content Include="Resources\Icon\1377801089_62655.ico" />
+    <Content Include="Resources\Icon\1377801095_62712.ico" />
+    <Content Include="Resources\Icon\1377801095_627121.ico" />
+    <Content Include="Resources\Icon\1377801124_62679.ico" />
+    <Content Include="Resources\Icon\1377801181_62668.ico" />
+    <Content Include="Resources\Icon\1377801219_62699.ico" />
+    <Content Include="Resources\Icon\1377801316_62660.ico" />
+    <Content Include="Resources\Icon\1377802975_32495.ico" />
+    <Content Include="Resources\Icon\1377802977_32565.ico" />
+    <None Include="Resources\Icon\1404721120_211650.ico" />
+    <None Include="Resources\printer_blue.bmp" />
+    <None Include="Resources\Icon\printer_blue.ico" />
+    <None Include="Resources\파워캐쉬1.gif" />
+    <None Include="Resources\Icon\est_icon_64.ico" />
+    <Content Include="View\ACC\정산관리.txt" />
+    <Content Include="View\DBT\채권관리.txt" />
+    <Content Include="View\LRN\대출일수상품.txt" />
+    <Content Include="View\RDM\상환관리.txt" />
+    <Content Include="View\RSK\리스크관리.txt" />
+    <Content Include="View\WDR\출금관리.txt" />
+    <Content Include="_Test\우편번호검색결과.html" />
+    <Content Include="_Test\우편번호검색결과.txt" />
+    <None Include="Resources\Icon\1382517304_22560.ico" />
+    <Content Include="Resources\Icon\1404566867_175135.ico" />
+    <EmbeddedResource Include="Resources\Manual\A001.html" />
+    <EmbeddedResource Include="Resources\Manual\A002.html" />
+    <EmbeddedResource Include="Resources\Manual\A003.html" />
+    <EmbeddedResource Include="Resources\Manual\A004.html" />
+    <EmbeddedResource Include="Resources\Manual\A005.html" />
+    <EmbeddedResource Include="Resources\Manual\A006.html" />
+    <EmbeddedResource Include="Resources\Manual\A007.html" />
+    <EmbeddedResource Include="Resources\Manual\A008.html" />
+    <EmbeddedResource Include="Resources\Manual\A009.html" />
+    <EmbeddedResource Include="Resources\Manual\A010.html" />
+    <EmbeddedResource Include="Resources\Manual\A011.html" />
+    <EmbeddedResource Include="Resources\Manual\A012.html" />
+    <EmbeddedResource Include="Resources\Manual\A013.html" />
+    <EmbeddedResource Include="Resources\Manual\A014.html" />
+    <EmbeddedResource Include="Resources\Manual\A015.html" />
+    <EmbeddedResource Include="Resources\Manual\A016.html" />
+    <EmbeddedResource Include="Resources\Manual\A017.html" />
+    <EmbeddedResource Include="Resources\Manual\A018.html" />
+    <EmbeddedResource Include="Resources\Manual\HLP200.css" />
+    <EmbeddedResource Include="Resources\Manual\HLP200.js" />
+    <EmbeddedResource Include="Resources\Manual\HLP200_left.html" />
+    <EmbeddedResource Include="Resources\Manual\HLP200_right.html" />
+    <Content Include="Resources\Icon\EXCEL_0001.ico" />
+    <Content Include="Resources\Icon\EXCEL_0002.ico" />
+    <Content Include="Resources\Icon\red_62690.ico" />
+    <Content Include="Resources\png\1404480877_Coffee_Shop.png" />
+    <Content Include="Resources\Icon\1404451698_274904.ico" />
+    <Content Include="Resources\Icon\1404476667_104598.ico" />
+    <Content Include="Resources\png\1404480935_street_stall.png" />
+    <Content Include="Resources\png\1404480988_shop.png" />
+    <Content Include="Resources\png\1404481126_money_bag.png" />
+    <Content Include="Resources\png\1404481133_edit_property.png" />
+    <Content Include="Resources\png\1404481145_info.png" />
+    <Content Include="Resources\png\1404481150_services.png" />
+    <Content Include="Resources\png\1404481155_car.png" />
+    <Content Include="Resources\png\1404481160_handshake.png" />
+    <Content Include="Resources\png\1404481164_wifi.png" />
+    <Content Include="Resources\png\1404481169_map_marker.png" />
+    <Content Include="Resources\png\1404481221_online_support.png" />
+    <Content Include="Resources\png\1404481225_purchase_order.png" />
+    <Content Include="Resources\png\1404481229_delivery_food.png" />
+    <Content Include="Resources\png\1404481232_View_Details.png" />
+    <Content Include="Resources\png\1404481235_checked_checkbox.png" />
+    <Content Include="Resources\png\1404481239_home.png" />
+    <Content Include="Resources\png\1404481242_calendar.png" />
+    <Content Include="Resources\png\1404481245_hotel.png" />
+    <Content Include="Resources\png\1404481249_shoping_cart.png" />
+    <Content Include="Resources\png\1404481253_change_user.png" />
+    <Content Include="Resources\png\1404481256_about.png" />
+    <Content Include="Resources\png\1404481260_google_web_search.png" />
+    <None Include="Resources\파워캐쉬.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DemoClient.Controls\DemoClient.Controls.csproj">
+      <Project>{ccf9fbeb-dd10-4c0f-8ea9-2986b7dc8320}</Project>
+      <Name>DemoClient.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DemoClient.Resource\DemoClient.Resource.csproj">
+      <Project>{10a9d392-ce70-4102-9906-491ff9f0ef79}</Project>
+      <Name>DemoClient.Resource</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties BuildVersion_UseGlobalSettings="True" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

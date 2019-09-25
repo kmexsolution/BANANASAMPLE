@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10A9D392-CE70-4102-9906-491FF9F0EF79}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DemoClient.Resource</RootNamespace>
+    <AssemblyName>DemoClient.Resource</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AssemblySharedInfo.cs">
+      <Link>Properties\AssemblySharedInfo.cs</Link>
+    </Compile>
+    <Compile Include="..\AssemblySharedVersion.cs">
+      <Link>Properties\AssemblySharedVersion.cs</Link>
+    </Compile>
+    <Compile Include="LanguageManager.cs" />
+    <Compile Include="ResourceManager.cs" />
+    <Compile Include="Languages\Language.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Language.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ajax-loader.gif" />
+    <EmbeddedResource Include="DocIcons\Acrobat_1.ico" />
+    <EmbeddedResource Include="DocIcons\blank.png" />
+    <EmbeddedResource Include="DocIcons\BMP.ico" />
+    <EmbeddedResource Include="DocIcons\EXCEL_257.ico" />
+    <EmbeddedResource Include="DocIcons\GIF.ico" />
+    <EmbeddedResource Include="DocIcons\Hwp_1228.ico" />
+    <EmbeddedResource Include="DocIcons\JPG.ico" />
+    <EmbeddedResource Include="DocIcons\PNG.ico" />
+    <EmbeddedResource Include="DocIcons\POWERPNT_1300.ico" />
+    <EmbeddedResource Include="DocIcons\WINWORD_1.ico" />
+    <EmbeddedResource Include="Icon\1377801048_62661.ico" />
+    <EmbeddedResource Include="Icon\1377801059_62678.ico" />
+    <EmbeddedResource Include="Icon\1377801089_62655.ico" />
+    <EmbeddedResource Include="Icon\1377801095_62712.ico" />
+    <EmbeddedResource Include="Icon\1377801095_627121.ico" />
+    <EmbeddedResource Include="Icon\1377801124_62679.ico" />
+    <EmbeddedResource Include="Icon\1377801181_62668.ico" />
+    <EmbeddedResource Include="Icon\1377801219_62699.ico" />
+    <EmbeddedResource Include="Icon\1377801316_62660.ico" />
+    <EmbeddedResource Include="Icon\1377802975_32495.ico" />
+    <EmbeddedResource Include="Icon\1377802977_32565.ico" />
+    <EmbeddedResource Include="png\1404480877_Coffee_Shop.png" />
+    <EmbeddedResource Include="png\1404480935_street_stall.png" />
+    <EmbeddedResource Include="png\1404480988_shop.png" />
+    <EmbeddedResource Include="png\1404481126_money_bag.png" />
+    <EmbeddedResource Include="png\1404481133_edit_property.png" />
+    <EmbeddedResource Include="png\1404481145_info.png" />
+    <EmbeddedResource Include="png\1404481150_services.png" />
+    <EmbeddedResource Include="png\1404481155_car.png" />
+    <EmbeddedResource Include="png\1404481160_handshake.png" />
+    <EmbeddedResource Include="png\1404481164_wifi.png" />
+    <EmbeddedResource Include="png\1404481169_map_marker.png" />
+    <EmbeddedResource Include="png\1404481221_online_support.png" />
+    <EmbeddedResource Include="png\1404481225_purchase_order.png" />
+    <EmbeddedResource Include="png\1404481229_delivery_food.png" />
+    <EmbeddedResource Include="png\1404481232_View_Details.png" />
+    <EmbeddedResource Include="png\1404481235_checked_checkbox.png" />
+    <EmbeddedResource Include="png\1404481239_home.png" />
+    <EmbeddedResource Include="png\1404481242_calendar.png" />
+    <EmbeddedResource Include="png\1404481245_hotel.png" />
+    <EmbeddedResource Include="png\1404481249_shoping_cart.png" />
+    <EmbeddedResource Include="png\1404481253_change_user.png" />
+    <EmbeddedResource Include="png\1404481256_about.png" />
+    <EmbeddedResource Include="png\1404481260_google_web_search.png" />
+    <EmbeddedResource Include="파워캐쉬.gif" />
+    <EmbeddedResource Include="Manual\HLP200_right.html" />
+    <EmbeddedResource Include="Manual\HLP200_left.html" />
+    <EmbeddedResource Include="Manual\HLP200.js" />
+    <EmbeddedResource Include="Manual\HLP200.css" />
+    <EmbeddedResource Include="Manual\A018.html" />
+    <EmbeddedResource Include="Manual\A017.html" />
+    <EmbeddedResource Include="Manual\A016.html" />
+    <EmbeddedResource Include="Manual\A015.html" />
+    <EmbeddedResource Include="Manual\A014.html" />
+    <EmbeddedResource Include="Manual\A013.html" />
+    <EmbeddedResource Include="Manual\A012.html" />
+    <EmbeddedResource Include="Manual\A011.html" />
+    <EmbeddedResource Include="Manual\A010.html" />
+    <EmbeddedResource Include="Manual\A009.html" />
+    <EmbeddedResource Include="Manual\A008.html" />
+    <EmbeddedResource Include="Manual\A007.html" />
+    <EmbeddedResource Include="Manual\A006.html" />
+    <EmbeddedResource Include="Manual\A005.html" />
+    <EmbeddedResource Include="Manual\A004.html" />
+    <EmbeddedResource Include="Manual\A003.html" />
+    <EmbeddedResource Include="Manual\A002.html" />
+    <EmbeddedResource Include="Manual\A001.html" />
+    <EmbeddedResource Include="Icon\1382517304_22560.ico" />
+    <EmbeddedResource Include="Icon\1404451698_274904.ico" />
+    <EmbeddedResource Include="Icon\1404476667_104598.ico" />
+    <EmbeddedResource Include="Icon\1404566867_175135.ico" />
+    <EmbeddedResource Include="Icon\1404721120_211650.ico" />
+    <EmbeddedResource Include="Icon\EXCEL_0001.ico" />
+    <EmbeddedResource Include="Icon\EXCEL_0002.ico" />
+    <EmbeddedResource Include="Icon\red_62690.ico" />
+    <Content Include="Library\AjaxPro.dll" />
+    <Content Include="Library\AppManager.dll" />
+    <Content Include="Library\BANANA.Common.v4.5.dll" />
+    <Content Include="Library\BANANA.International.v4.5.dll" />
+    <Content Include="Library\BANANA.Java.Helper.dll" />
+    <Content Include="Library\BANANA.OpenOffice.dll" />
+    <Content Include="Library\BANANA.Web.Controls.v4.5.dll" />
+    <Content Include="Library\BANANA.Web.v4.5.dll" />
+    <Content Include="Library\BANANA.Windows.Controls.v4.5.dll" />
+    <Content Include="Library\BANANA.Windows.v4.5.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="Languages\Language.ko-KR.resx" />
+    <EmbeddedResource Include="Languages\Language.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Language.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Languages\Language.zh-CN.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,475 @@
+[2019-07-19 08:16:12.1612.928912] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:05:30.530.042073] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:08:06.86.668642] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:20:46.2046.650090] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:28:34.2834.175280] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:30:00.300.790147] Exception Found==============================
+Type: System.IndexOutOfRangeException
+Message:  위치 -2147483647에 행이 없습니다.
+Source: System.Data
+HelpLink: 
+Stacktrace: 
+   위치: System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   위치: System.Data.DataRowCollection.get_Item(Int32 index)
+   위치: DemoClient.View.BAS.mngLINPRC._btnSearch1_Click(Object sender, EventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 217
+   위치: System.Windows.Forms.Control.OnClick(EventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 14:31:27.3127.702801] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:33:52.3352.569090] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:37:02.372.639984] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:41:23.4123.460490] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:44:22.4422.650474] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:48:22.4822.875301] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:52:00.520.319452] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 14:58:06.586.402898] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:01:24.124.199229] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:03:37.337.417164] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:03:52.352.864870] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:11:09.119.340070] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:22:23.2223.686061] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:26:26.2626.547836] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:27:11.2711.222411] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:27:45.2745.648393] Exception Found==============================
+Type: System.NullReferenceException
+Message:  개체 참조가 개체의 인스턴스로 설정되지 않았습니다.
+Source: DemoClient
+HelpLink: 
+Stacktrace: 
+   위치: DemoClient.View.BAS.mngLINPRC._btnSearch1_Click(Object sender, EventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 217
+   위치: System.Windows.Forms.Control.OnClick(EventArgs e)
+   위치: DevExpress.XtraEditors.TextEdit.OnMaskBox_Click(Object sender, EventArgs e)
+   위치: System.Windows.Forms.Control.OnClick(EventArgs e)
+   위치: System.Windows.Forms.TextBoxBase.OnMouseUp(MouseEventArgs mevent)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBoxBase.WndProc(Message& m)
+   위치: System.Windows.Forms.TextBox.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.Mask.MaskBox.BaseWndProc(Message& m)
+   위치: DevExpress.XtraEditors.Mask.MaskBox.MaskStrategy.SimpleStrategy.DoWndProc(Message& m)
+   위치: DevExpress.XtraEditors.Mask.MaskBox.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextBoxMaskBox.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 15:49:32.4932.917383] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:50:07.507.882904] Exception Found==============================
+Type: System.ArgumentNullException
+Message:  값은 null일 수 없습니다.
+매개 변수 이름: column
+Source: DevExpress.XtraGrid.v18.1
+HelpLink: 
+Stacktrace: 
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetRowCellDisplayText(Int32 rowHandle, GridColumn column)
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetFocusedRowCellDisplayText(String fieldName)
+   위치: DemoClient.View.BAS.mngLINPRC.repositoryItemButtonEdit1_ButtonClick(Object sender, ButtonPressedEventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 402
+   위치: DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.RaiseButtonClick(ButtonPressedEventArgs e)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 15:55:09.559.663177] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 15:58:57.5857.897907] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 16:39:40.3940.405705] Exception Found==============================
+Type: System.ArgumentNullException
+Message:  값은 null일 수 없습니다.
+매개 변수 이름: column
+Source: DevExpress.XtraGrid.v18.1
+HelpLink: 
+Stacktrace: 
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetRowCellDisplayText(Int32 rowHandle, GridColumn column)
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetFocusedRowCellDisplayText(String fieldName)
+   위치: DemoClient.View.BAS.mngLINPRC.repositoryItemButtonEdit1_ButtonClick(Object sender, ButtonPressedEventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 408
+   위치: DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.RaiseButtonClick(ButtonPressedEventArgs e)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 16:40:36.4036.501958] Exception Found==============================
+Type: System.ArgumentNullException
+Message:  값은 null일 수 없습니다.
+매개 변수 이름: column
+Source: DevExpress.XtraGrid.v18.1
+HelpLink: 
+Stacktrace: 
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetRowCellDisplayText(Int32 rowHandle, GridColumn column)
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetFocusedRowCellDisplayText(String fieldName)
+   위치: DemoClient.View.BAS.mngLINPRC.repositoryItemButtonEdit1_ButtonClick(Object sender, ButtonPressedEventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 408
+   위치: DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.RaiseButtonClick(ButtonPressedEventArgs e)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 16:59:54.5954.639839] Exception Found==============================
+Type: System.ArgumentNullException
+Message:  값은 null일 수 없습니다.
+매개 변수 이름: column
+Source: DevExpress.XtraGrid.v18.1
+HelpLink: 
+Stacktrace: 
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetRowCellDisplayText(Int32 rowHandle, GridColumn column)
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetFocusedRowCellDisplayText(String fieldName)
+   위치: DemoClient.View.BAS.mngLINPRC.repositoryItemButtonEdit1_ButtonClick(Object sender, ButtonPressedEventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 408
+   위치: DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.RaiseButtonClick(ButtonPressedEventArgs e)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 17:00:05.05.595550] Exception Found==============================
+Type: System.ArgumentNullException
+Message:  값은 null일 수 없습니다.
+매개 변수 이름: column
+Source: DevExpress.XtraGrid.v18.1
+HelpLink: 
+Stacktrace: 
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetRowCellDisplayText(Int32 rowHandle, GridColumn column)
+   위치: DevExpress.XtraGrid.Views.Base.ColumnView.GetFocusedRowCellDisplayText(String fieldName)
+   위치: DemoClient.View.BAS.mngLINPRC.repositoryItemButtonEdit1_ButtonClick(Object sender, ButtonPressedEventArgs e) 파일 D:\win.bananaframework.net\DemoClient\View\BAS\mngLINPRC.cs:줄 408
+   위치: DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit.RaiseButtonClick(ButtonPressedEventArgs e)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnClickButton(EditorButtonObjectInfoArgs buttonInfo)
+   위치: DevExpress.XtraEditors.ButtonEdit.OnMouseUp(MouseEventArgs e)
+   위치: System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   위치: System.Windows.Forms.Control.WndProc(Message& m)
+   위치: DevExpress.Utils.Controls.ControlBase.WndProc(Message& m)
+   위치: DevExpress.XtraEditors.TextEdit.WndProc(Message& msg)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   위치: System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   위치: System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+
+
+[2019-07-19 17:02:47.247.183137] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 17:14:47.1447.382215] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 17:18:54.1854.321086] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 17:24:34.2434.097786] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 17:27:06.276.311883] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 
+
+
+
+
+[2019-07-19 17:31:38.3138.618870] Exception Found==============================
+Type: System.Exception
+Message:  [AppManager.dll] Url: http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+AppManager 서버의 web.config에 해당 프로그램에 대한 정보가 없습니다.
+Source: 
+HelpLink: ServerUrl = http://211.232.104.186:9001, UpdateUrl = /LiveUpdate/DemoClient, Url = http://211.232.104.186:9001/Service/LiveUpdate/VersionInfo.ashx?a=DemoClient.vshost
+Stacktrace: 

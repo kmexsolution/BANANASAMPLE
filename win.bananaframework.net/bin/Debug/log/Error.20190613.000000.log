@@ -1,0 +1,39 @@
+[2019-06-13 12:41:45.4145.417122] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: C:\WebDev\BANANA.Framework\GitHub\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-13 12:41:45.4145.520059] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: C:\WebDev\BANANA.Framework\GitHub\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
+
+
+
+[2019-06-13 12:41:47.4147.884002] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: 
+HelpLink: File location that app is looking for: C:\WebDev\BANANA.Framework\GitHub\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+
+
+
+
+[2019-06-13 12:41:47.4147.903990] Exception Found==============================
+Type: System.Security.SecurityException
+Message:  [BANANA.Windows] 라이선스 파일이 존재하지 않습니다.
+Source: BANANA.Windows.v4.5
+HelpLink: File location that app is looking for: C:\WebDev\BANANA.Framework\GitHub\win.bananaframework.net\bin\Debug\BANANA.Windows.amlic;
+Stacktrace: 
+   at BANANA.Windows.LicenseManager.ValidateLicense()
+   at BANANA.Windows.BaseForm..ctor()
